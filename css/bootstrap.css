@@ -1,0 +1,59 @@
+/*
+Error: File to import not found or unreadable: bootstrap/variables.
+       Load paths:
+         C:/Users/Personal/Desktop/segundo semestre 2020/Adobe Illustrator CC 2019/Adobe Dreamweaver CC 2019/Configuration/SassFrameworks/bourbon
+         C:/Users/Personal/Desktop/segundo semestre 2020/Adobe Illustrator CC 2019/Adobe Dreamweaver CC 2019/Configuration/SassFrameworks/neat
+         C:/Users/Personal/Desktop/segundo semestre 2020/Adobe Illustrator CC 2019/Adobe Dreamweaver CC 2019/Configuration/SassFrameworks/base
+        on line 8 of C:\Users\Personal\Desktop\proyectodg3\css\bootstrap.scss
+
+3:  * Copyright 2011-2015 Twitter, Inc.
+4:  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+5:  *\/
+6: 
+7: // Core variables and mixins
+8: @import "bootstrap/variables";
+9: @import "bootstrap/mixins";
+10: 
+11: // Reset and dependencies
+12: @import "bootstrap/normalize";
+13: @import "bootstrap/print";
+
+Backtrace:
+C:\Users\Personal\Desktop\proyectodg3\css\bootstrap.scss:8
+C:/Users/Personal/Desktop/segundo semestre 2020/Adobe Illustrator CC 2019/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/import_node.rb:67:in `rescue in import'
+C:/Users/Personal/Desktop/segundo semestre 2020/Adobe Illustrator CC 2019/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/import_node.rb:45:in `import'
+C:/Users/Personal/Desktop/segundo semestre 2020/Adobe Illustrator CC 2019/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/import_node.rb:28:in `imported_file'
+C:/Users/Personal/Desktop/segundo semestre 2020/Adobe Illustrator CC 2019/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/import_node.rb:37:in `css_import?'
+C:/Users/Personal/Desktop/segundo semestre 2020/Adobe Illustrator CC 2019/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:314:in `visit_import'
+C:/Users/Personal/Desktop/segundo semestre 2020/Adobe Illustrator CC 2019/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Users/Personal/Desktop/segundo semestre 2020/Adobe Illustrator CC 2019/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Users/Personal/Desktop/segundo semestre 2020/Adobe Illustrator CC 2019/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `block in with_base'
+C:/Users/Personal/Desktop/segundo semestre 2020/Adobe Illustrator CC 2019/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:135:in `with_frame'
+C:/Users/Personal/Desktop/segundo semestre 2020/Adobe Illustrator CC 2019/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `with_base'
+C:/Users/Personal/Desktop/segundo semestre 2020/Adobe Illustrator CC 2019/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Users/Personal/Desktop/segundo semestre 2020/Adobe Illustrator CC 2019/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Users/Personal/Desktop/segundo semestre 2020/Adobe Illustrator CC 2019/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Users/Personal/Desktop/segundo semestre 2020/Adobe Illustrator CC 2019/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Users/Personal/Desktop/segundo semestre 2020/Adobe Illustrator CC 2019/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+C:/Users/Personal/Desktop/segundo semestre 2020/Adobe Illustrator CC 2019/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Users/Personal/Desktop/segundo semestre 2020/Adobe Illustrator CC 2019/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+C:/Users/Personal/Desktop/segundo semestre 2020/Adobe Illustrator CC 2019/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Users/Personal/Desktop/segundo semestre 2020/Adobe Illustrator CC 2019/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+C:/Users/Personal/Desktop/segundo semestre 2020/Adobe Illustrator CC 2019/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Users/Personal/Desktop/segundo semestre 2020/Adobe Illustrator CC 2019/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:161:in `visit'
+C:/Users/Personal/Desktop/segundo semestre 2020/Adobe Illustrator CC 2019/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:10:in `visit'
+C:/Users/Personal/Desktop/segundo semestre 2020/Adobe Illustrator CC 2019/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Users/Personal/Desktop/segundo semestre 2020/Adobe Illustrator CC 2019/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/root_node.rb:20:in `render'
+C:/Users/Personal/Desktop/segundo semestre 2020/Adobe Illustrator CC 2019/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/engine.rb:290:in `render'
+C:/Users/Personal/Desktop/segundo semestre 2020/Adobe Illustrator CC 2019/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:400:in `run'
+C:/Users/Personal/Desktop/segundo semestre 2020/Adobe Illustrator CC 2019/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Users/Personal/Desktop/segundo semestre 2020/Adobe Illustrator CC 2019/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/base.rb:52:in `parse'
+C:/Users/Personal/Desktop/segundo semestre 2020/Adobe Illustrator CC 2019/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/base.rb:19:in `parse!'
+C:/Users/Personal/Desktop/segundo semestre 2020/Adobe Illustrator CC 2019/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/bin/sass:13:in `<top (required)>'
+C:/Users/Personal/Desktop/segundo semestre 2020/Adobe Illustrator CC 2019/Adobe Dreamweaver CC 2019/ruby/bin/sass:23:in `load'
+C:/Users/Personal/Desktop/segundo semestre 2020/Adobe Illustrator CC 2019/Adobe Dreamweaver CC 2019/ruby/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: bootstrap/variables.\A        Load paths:\A          C:/Users/Personal/Desktop/segundo semestre 2020/Adobe Illustrator CC 2019/Adobe Dreamweaver CC 2019/Configuration/SassFrameworks/bourbon\A          C:/Users/Personal/Desktop/segundo semestre 2020/Adobe Illustrator CC 2019/Adobe Dreamweaver CC 2019/Configuration/SassFrameworks/neat\A          C:/Users/Personal/Desktop/segundo semestre 2020/Adobe Illustrator CC 2019/Adobe Dreamweaver CC 2019/Configuration/SassFrameworks/base\A         on line 8 of C:\Users\Personal\Desktop\proyectodg3\css\bootstrap.scss\A \A 3:  * Copyright 2011-2015 Twitter, Inc.\A 4:  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\A 5:  */\A 6: \A 7: // Core variables and mixins\A 8: @import \"bootstrap/variables\";\A 9: @import \"bootstrap/mixins\";\A 10: \A 11: // Reset and dependencies\A 12: @import \"bootstrap/normalize\";\A 13: @import \"bootstrap/print\";"; }
